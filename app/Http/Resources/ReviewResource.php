@@ -17,8 +17,7 @@ class ReviewResource extends JsonResource
         return [ 
             'customer'=>$this->customer,
             'body'=>$this->review,
-            'star'=>$this->star,
-            'product_id'=>$this->product_id
+            'star'=>$this->star
 
         ];
     }
